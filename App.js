@@ -66,13 +66,13 @@ function HomeScreen({ navigation }) {
     <View style={styles.container}>
       <TextInput
         style={styles.input}
-        placeholder="First Name"
+        placeholder="Firstname"
         value={firstName}
         onChangeText={setFirstName}
       />
       <TextInput
         style={styles.input}
-        placeholder="Last Name"
+        placeholder="Lastname"
         value={lastName}
         onChangeText={setLastName}
       />
