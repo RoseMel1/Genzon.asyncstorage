@@ -104,7 +104,7 @@ function HomeScreen({ navigation }) {
         <Button title="Add Student" onPress={addStudent} />
       </View>
       <View style={{ marginBottom: 30 }}>
-        <Button title="View Student List" onPress={() => navigation.navigate('Student List')} />
+        <Button title="View Students List" onPress={() => navigation.navigate('Student List')} />
       </View>
     </View>
   );
